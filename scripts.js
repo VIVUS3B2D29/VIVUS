@@ -60,6 +60,8 @@ setInterval(function() {
       else {
         document.getElementById('big').style.display = "none";
       }
+    } else {
+      document.getElementById('big').style.display ="none";
     }
   }
 }, 25);
